@@ -1,12 +1,15 @@
 package string;
 
+import interfaces.Problem;
 import org.junit.jupiter.api.Test;
 
-class CompareStringTest {
+import static org.junit.jupiter.api.Assertions.*;
+
+class CheckVowelTest {
 
     @Test
     void solve() {
-        CompareString problem = new CompareString();
+        Problem problem = new CheckVowel();
         problem.description();
         problem.solve();
     }
